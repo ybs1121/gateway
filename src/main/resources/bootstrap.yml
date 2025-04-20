@@ -1,0 +1,6 @@
+spring:
+  cloud:
+    config:
+#      import: http://localhost:8888
+      uri: http://127.0.0.1:8888
+      name: ecommerce
